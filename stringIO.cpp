@@ -1,4 +1,3 @@
-
 #include <iostream>
 
 int main(void)
@@ -6,16 +5,13 @@ int main(void)
 	char name[100];
 	char lang[200];
 
-	std::cout<<"ì´ë¦„ : ";
+	std::cout<<"ÀÌ¸§Àº ¹«¾ùÀÔ´Ï±î? ";
 	std::cin>>name;
 
-	std::cout<<"í”„ë¡œê·¸ëž˜ë° ì–¸ì–´ : ";
+	std::cout<<"ÁÁ¾ÆÇÏ´Â ÇÁ·Î±×·¡¹Ö ¾ð¾î´Â ¹«¾ùÀÎ°¡¿ä? ";
 	std::cin>>lang;
 
-	std::cout<<"ë‚´ ì´ë¦„ì€ "<<name<<"ìž…ë‹ˆë‹¤.\n";
-	std::cout<<"ì œì¼ ì¢‹ì•„í•˜ëŠ” ì–¸ì–´ëŠ” "<<lang<<"ìž…ë‹ˆë‹¤."<<std::endl;
+	std::cout<<"³» ÀÌ¸§Àº "<<name<<"ÀÔ´Ï´Ù.\n";
+	std::cout<<"Á¦ÀÏ ÁÁ¾ÆÇÏ´Â ¾ð¾î´Â "<<lang<<"ÀÔ´Ï´Ù."<<std::endl;
 	return 0;
-
-	// ë°°ì—´ì˜ ë¬¸ìžì—´ ìž…ì¶œë ¥
-	// 
 }
